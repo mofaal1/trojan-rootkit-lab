@@ -121,21 +121,22 @@ Analyzed the impact of a Trojan and a rootkit on a Windows machine using Task Ma
 14. **C:\beast Folder:**
     - Checked for the presence of the C:\beast folder to identify files and directories created by malware, aiding in its analysis and cleanup.
       
-      <img width="500" alt="Picture13" src="https://github.com/mofaal1/trojan-rootkit-lab/assets/137732122/ee53ee36-635f-4ed8-a5c4-92098671aa19">
+      <img width="500" alt="Picture11" src="https://github.com/mofaal1/trojan-rootkit-lab/assets/137732122/38a8ee7a-e71e-4583-ac35-8bbb4a58e7fa">
 
     - **Explanation:** The screenshot shows the absence of the C:\beast folder in the file system.
 
 15. **F:\Hackish\hxdef100 Subfolder:**
     - Checked for the presence of the \hxdef100 subfolder inside F:\Hackish to verify the presence of specific subfolders, helping in understanding the malware's installation and propagation.
 
-      <img width="500" alt="Picture14" src="https://github.com/mofaal1/trojan-rootkit-lab/assets/137732122/17491b2d-f1fa-496b-8f34-7204b7a4b8c4">
+      <img width="500" alt="Picture15" src="https://github.com/mofaal1/trojan-rootkit-lab/assets/137732122/66509dc8-fad1-4280-9073-602d6f38b3c0">
+      
 
     - **Explanation:** The screenshot shows the \hxdef100 subfolder, indicating that the folder is present in the specified directory.
 
 16. **Ports Connected to the Attacker Machine:**
     - Used netstat to identify ports connected to the attacker machine to understand which ports are used for communication with the attacker, aiding in analyzing the attack's command and control structure.
     
-      <img width="500" alt="Picture15" src="https://github.com/mofaal1/trojan-rootkit-lab/assets/137732122/66509dc8-fad1-4280-9073-602d6f38b3c0">
+      <img width="500" alt="Picture10" src="https://github.com/mofaal1/trojan-rootkit-lab/assets/137732122/b5fd6c1d-ac26-4088-a5e8-034b2453361f">
 
     - **Explanation:** The netstat output shows the ports connected to the attacker machine, indicating active connections.
 
@@ -147,15 +148,15 @@ Analyzed the impact of a Trojan and a rootkit on a Windows machine using Task Ma
     - Checked Task Manager for the "beast" process one last time to ensure the malware process remains active throughout the analysis, aiding in understanding its persistence.
     
       <img width="500" alt="Picture14" src="https://github.com/mofaal1/trojan-rootkit-lab/assets/137732122/17491b2d-f1fa-496b-8f34-7204b7a4b8c4">
-      <img width="500" alt="Picture13" src="https://github.com/mofaal1/trojan-rootkit-lab/assets/137732122/ee53ee36-635f-4ed8-a5c4-92098671aa19">
+
     
     - **Explanation:** The screenshot shows the "beast" process in the Task Manager.
 
 17. **Visibility of Previously Identified Ports:**
     - Used netstat to check the visibility of the ports identified earlier to confirm the presence or absence of these ports over time, indicating the malware's behavior regarding network communication.
     
-      <img width="500" alt="Picture10" src="https://github.com/mofaal1/trojan-rootkit-lab/assets/137732122/b5fd6c1d-ac26-4088-a5e8-034b2453361f">
-
+      <img width="500" alt="Picture13" src="https://github.com/mofaal1/trojan-rootkit-lab/assets/137732122/ee53ee36-635f-4ed8-a5c4-92098671aa19">
+    
     
     - **Explanation:** The netstat output confirms the visibility of the previously identified ports.
 
