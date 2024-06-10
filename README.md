@@ -100,7 +100,7 @@ Analyzed the impact of a Trojan and a rootkit on a Windows machine using Task Ma
 10. **Open Ports for the Beast Trojan:**
     - Used netstat to identify ports opened by Beast Trojan, as knowing which ports the Trojan opens can help in understanding its communication mechanisms.
       
-      <img width="500" alt="Picture10" src="https://github.com/mofaal1/trojan-rootkit-lab/assets/137732122/b5fd6c1d-ac26-4088-a5e8-034b2453361f">
+      <img width="500" alt="Picture13" src="https://github.com/mofaal1/trojan-rootkit-lab/assets/137732122/ee53ee36-635f-4ed8-a5c4-92098671aa19">
 
     - **Explanation:** The netstat output shows the open ports associated with the Beast Trojan.
 
@@ -114,7 +114,7 @@ Analyzed the impact of a Trojan and a rootkit on a Windows machine using Task Ma
 13. **Visibility of Previously Identified Open Ports:**
     - Used netstat to check the visibility of previously identified ports to determine whether the ports remain open or have been closed, indicating changes in the malware's behavior.
 
-      <img width="500" alt="Picture12" src="https://github.com/mofaal1/trojan-rootkit-lab/assets/137732122/41818456-4f97-48ba-a885-a978ec32f48c">
+      <img width="500" alt="Picture14" src="https://github.com/mofaal1/trojan-rootkit-lab/assets/137732122/17491b2d-f1fa-496b-8f34-7204b7a4b8c4">
 
     - **Explanation:** The netstat output indicates that the ports associated with the Beast Trojan are no longer open.
 
