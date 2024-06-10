@@ -146,6 +146,7 @@ Analyzed the impact of a Trojan and a rootkit on a Windows machine using Task Ma
 16. **Presence of "beast" in Task Manager:**
     - Checked Task Manager for the "beast" process one last time to ensure the malware process remains active throughout the analysis, aiding in understanding its persistence.
     
+      <img width="500" alt="Picture14" src="https://github.com/mofaal1/trojan-rootkit-lab/assets/137732122/17491b2d-f1fa-496b-8f34-7204b7a4b8c4">
       <img width="500" alt="Picture13" src="https://github.com/mofaal1/trojan-rootkit-lab/assets/137732122/ee53ee36-635f-4ed8-a5c4-92098671aa19">
     
     - **Explanation:** The screenshot shows the "beast" process in the Task Manager.
@@ -153,7 +154,8 @@ Analyzed the impact of a Trojan and a rootkit on a Windows machine using Task Ma
 17. **Visibility of Previously Identified Ports:**
     - Used netstat to check the visibility of the ports identified earlier to confirm the presence or absence of these ports over time, indicating the malware's behavior regarding network communication.
     
-      <img width="500" alt="Picture12" src="https://github.com/mofaal1/trojan-rootkit-lab/assets/137732122/41818456-4f97-48ba-a885-a978ec32f48c">
+      <img width="500" alt="Picture10" src="https://github.com/mofaal1/trojan-rootkit-lab/assets/137732122/b5fd6c1d-ac26-4088-a5e8-034b2453361f">
+
     
     - **Explanation:** The netstat output confirms the visibility of the previously identified ports.
 
